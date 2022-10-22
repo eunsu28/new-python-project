@@ -1,1 +1,8 @@
-print("the new project begins here")
+import random
+
+def a():
+    return "hello"
+
+a = a()
+
+print(a)
