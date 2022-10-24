@@ -7,11 +7,15 @@ def clear():
 
 print("this thing will tell you what you've read so far")
 
-a = input("choose the function: ")
-if a == "a":
-    print("hello")
+f_input = input("choose the function: ")
+if f_input == "a":
+    print("add things")
     sleep(1)
-else:
+    f = open("book.txt", 'a')
+    s_input = input(":")
+    f.write(s_input)
+    f.close()
+elif f_input == "r":
     print("bye")
     sleep(1)
 
