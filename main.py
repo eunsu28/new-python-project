@@ -13,7 +13,7 @@ if f_input == "a":
     sleep(1)
     f = open("book.txt", 'a')
     s_input = input(":")
-    f.write(s_input)
+    f.write("%s\n" %s_input)
     f.close()
 elif f_input == "r":
     print("bye")
