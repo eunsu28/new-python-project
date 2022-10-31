@@ -20,3 +20,4 @@ elif f_input == "r":
     sleep(1)
 
 clear()
+#
