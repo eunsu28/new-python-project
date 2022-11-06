@@ -6,9 +6,9 @@ thing = 1
 def clear():
     return os.system("clear")
 
-while thing:
+while thing == 1:
     print("this thing will tell you what you've read so far")
-    
+
     f_input = input("choose the function: ")
     if f_input == "a":
         print("add things")
@@ -18,7 +18,6 @@ while thing:
         f.write("%s\n" %s_input)
         f.close()
     elif f_input == "r":
-        print("bye")
-        sleep(1)
+        thing = 2
 
     clear()
