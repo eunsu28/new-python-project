@@ -1,10 +1,11 @@
 import os
 from time import sleep
 
-thing = 1
-
 def clear():
     return os.system("clear")
+
+####################################################################
+thing = 1
 
 while thing == 1:
     print("this thing will tell you what you've read so far")
