@@ -27,8 +27,12 @@ while thing == 1:
         print("I'll load all the books that you've read")
         sleep(1)
         f = open("book.txt", 'r')
+        while True:
+            line = f.readline()
+            if not line: break
+            print(line)
+        f.close()
     ##########
     elif f_input == 'f':
         thing = 2
-
-    clear()
+        clear()
