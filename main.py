@@ -39,3 +39,10 @@ while thing == 1:
     elif f_input == 'f':
         thing = 2
         clear()
+
+
+# f = open("book.txt", 'r')
+# lines = f.readlines()
+# for line in lines:
+#     print(line)
+# f.close()
