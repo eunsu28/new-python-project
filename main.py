@@ -26,6 +26,7 @@ while thing == 1:
             thing = 2
         f.write("%s\n" %s_input)
         f.close()
+        sleep_clear()
     ##########
     elif f_input == "r":
         print("I'll load all the books that you've read")
