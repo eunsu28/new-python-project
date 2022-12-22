@@ -28,10 +28,8 @@ while thing == 1:
         sleep(1.5)
         clear()
         f = open("book.txt", 'r')
-        while True:
-            line = f.readline()
-            if not line: break
-            print(line)
+        read = f.read()
+        print(read)
         f.close()
         sleep(2)
         clear()
