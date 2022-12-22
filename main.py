@@ -26,6 +26,7 @@ while thing == 1:
     elif f_input == "r":
         print("I'll load all the books that you've read")
         sleep(1)
+        f = open("book.txt", 'r')
     ##########
     elif f_input == 'f':
         thing = 2
